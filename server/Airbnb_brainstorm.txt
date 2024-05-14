@@ -1,0 +1,58 @@
+User
+- id
+- fullName
+- email
+- phoneNumber
+- password
+
+
+Host
+- id
+- userId
+
+
+Listing
+- id
+- title
+- date
+- description
+- location
+- price
+
+
+ListingAmenity
+- id
+- name
+- description
+- listingId
+
+
+ListingImage
+- id
+- listingId
+- image
+
+
+ListingReview
+- id
+- listingId
+- rating
+- comment
+
+
+Payment
+- id
+- userId
+- listingId
+- date
+- method
+
+
+Booking
+- id
+- listingId
+- paymentId
+- check-in-date
+- chack-out-date
+
+
